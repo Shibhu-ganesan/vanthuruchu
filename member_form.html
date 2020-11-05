@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Member</title>
+    </head>
+    <body>
+        <form action="" method='POST'>
+            {% csrf_token %}
+            {{mem_form.as_p}}
+            <input type="submit" value="submit">
+        </form>
+        
+    </body>
+</html>
